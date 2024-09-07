@@ -12,5 +12,8 @@ namespace HomeworkOnEF
         public string Name { get; set; }
         public string? Email { get; set; }
         public string Role { get; set; }
+
+        Book Book { get; set; } 
+        List<Book> books { get; set; } = new List<Book>();  
     }
 }
